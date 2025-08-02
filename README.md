@@ -126,7 +126,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-If you want to get in touch, reach out via [GitHub](https://github.com/imrajeevnayan) or email: rajeev.email@example.com
+If you want to get in touch, reach out via [GitHub](https://github.com/imrajeevnayan) or email: imrajeevnayan@gmail.com
 
 ---
 
