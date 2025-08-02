@@ -82,7 +82,7 @@ Check it out here:
 ---
 
 ## 📁 Folder Structure
-
+```
 weather-forecast-application/
 ├── public/ # Static assets
 ├── src/ # Source files
@@ -96,7 +96,7 @@ weather-forecast-application/
 ├── vite.config.ts # Vite configuration
 └── README.md
 
-
+``
 
 ---
 
