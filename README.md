@@ -33,7 +33,7 @@ _Add a few screenshots here if available._
 
 Clone the repo:
 
-```bash
+```
 git clone https://github.com/imrajeevnayan/weather-forecast-application.git
 cd weather-forecast-application
 
@@ -43,9 +43,13 @@ Create a .env file and add your API key:
 
 REACT_APP_WEATHER_API_KEY=your_api_key_here
 Run the app:
-npm start
-📁 Folder Structure
+
+npm 
+
 ```
+```
+📁 Folder Structure
+
 weather-forecast-application/
 ├── public/
 ├── src/
