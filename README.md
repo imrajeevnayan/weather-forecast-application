@@ -18,7 +18,7 @@ _Add a few screenshots here if available._
 
 ## 🚀 Demo
 
-**Live Demo:** [Click Here](https://your-demo-link.com)
+**Live Demo:** [Click Here](https://imrajeevnayan.github.io/weather-forecast-application/)
 
 ## 🛠️ Technologies Used
 
