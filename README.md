@@ -1,134 +1,153 @@
-# 🌦️ Weather Forecast Application
+# weather-forecast-application
 
-A **responsive** and **modern** weather forecast application built with **React** and **Vite**, allowing users to view **real-time weather data** for any city worldwide.
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/imrajeevnayan/weather-forecast-application?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/imrajeevnayan/weather-forecast-application?style=for-the-badge)
 
----
+Weather Forecast Application is a modern, responsive weather app built with React, Vite, and TypeScript. It allows users to search for any city and view current weather conditions including temperature, humidity, wind speed, and descriptive icons. Designed for speed and simplicity, the app fetches real-time weather data using a public weather API
 
-## 🔍 Features
+## 🏷️ Topics
 
-- 🔎 Search weather by **city name**
-- 🌡️ Displays **temperature**, **humidity**, **wind speed**, and **weather conditions**
-- 🕐 Shows current **time** and **date**
-- 🌍 Supports **multiple locations**
-- 📱 Fully **responsive** design for desktops, tablets, and mobiles
-- 🌤️ Dynamic **weather icons** based on current conditions
-- 🛠️ Powered by a public weather API (e.g., [OpenWeatherMap](https://openweathermap.org/))
+`weather` `weather-api` `weather-app` `weather-forecast`
 
----
+## ✨ Features
 
-## 📸 Screenshots
+🌐 Modern web application with responsive design
+⚡ Fast and optimized performance
+🎨 Beautiful and intuitive user interface
+⚛️ Built with React for component-based architecture
 
-> _Add screenshots or GIFs here to showcase the UI._
+## 🚀 Quick Start
 
----
+### Prerequisites
 
-## 🚀 Live Demo
+- Node.js (version 16 or higher)
+- npm or yarn package manager
+- Git for version control
 
-Check it out here:  
-👉 [https://imrajeevnayan.github.io/weather-forecast-application/](https://imrajeevnayan.github.io/weather-forecast-application/)
+### Installation
 
----
+```bash
+# Clone the repository
+git clone https://github.com/imrajeevnayan/weather-forecast-application.git
 
-## 🛠️ Technologies Used
+# Navigate to the project directory
+cd weather-forecast-application
 
-- **React** with Hooks  
-- **Vite** for fast build and development  
-- **TypeScript** for type safety  
-- **Tailwind CSS** for utility-first styling (if applicable)  
-- **Axios** or native Fetch API for HTTP requests  
-- Public Weather API (e.g., OpenWeatherMap)  
+# Install dependencies
+npm install
 
----
+# Or using yarn
+yarn install
+```
 
-## 📦 Installation & Setup
+### Usage
 
-1. **Clone the repo:**
+```bash
+# Start the development server
+vite
 
-    ```bash
-    git clone https://github.com/imrajeevnayan/weather-forecast-application.git
-    cd weather-forecast-application
-    ```
+# Build for production
+vite build
 
-2. **Install dependencies:**
+# Start production server
+npm start
+```
 
-    ```bash
-    npm install
-    ```
+Visit `http://localhost:3000` to view the application.
 
-3. **Create a `.env` file** in the root folder and add your API key:
 
-    ```env
-    VITE_WEATHER_API_KEY=your_api_key_here
-    ```
 
-4. **Start the development server:**
+## 📜 Available Scripts
 
-    ```bash
-    npm run dev
-    ```
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the project for production |
+| `npm run lint` | Run the linter |
+| `npm run preview` | Preview the production build |
+| `npm run predeploy` | Run predeploy |
+| `npm run deploy` | Deploy the application |
 
-5. **Build for production:**
 
-    ```bash
-    npm run build
-    ```
 
-6. **Deploy** (if using GitHub Pages or other services):
+## 📁 Project Structure
 
-    ```bash
-    npm run deploy
-    ```
-
----
-
-## 📁 Folder Structure
 ```
 weather-forecast-application/
-├── public/ # Static assets
-├── src/ # Source files
-│ ├── components/ # React components
-│ ├── assets/ # Images, icons, etc.
-│ ├── App.tsx # Main app component
-│ ├── main.tsx # Entry point
-│ └── ...
-├── .env # Environment variables (API keys)
+├── README.md
 ├── package.json
-├── vite.config.ts # Vite configuration
-└── README.md
+├── src/
+│   ├── index.ts
+│   └── components/
+├── public/
+└── dist/
 ```
 
----
+## 🛠️ Built With
 
-## 🌐 API Reference
-
-This project uses data from the [OpenWeatherMap API](https://openweathermap.org/api). Be sure to get your API key from their site and add it to your `.env` file.
-
----
+- **TypeScript** - Primary programming language
+- **React** - Application framework
+- **react** - UI library
+- **typescript** - Typed superset of JavaScript
+- **vite** - Build tool
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/imrajeevnayan/weather-forecast-application/issues).
+We welcome contributions! Here's how you can help:
+
+### Development Process
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Add tests for your changes
+5. Ensure all tests pass
+6. Commit your changes (`git commit -m 'Add some amazing feature'`)
+7. Push to the branch (`git push origin feature/amazing-feature`)
+8. Open a Pull Request
+
+### Code Style
+
+- Follow the existing code style
+- Run the linter before submitting: `eslint .`
+- Write meaningful commit messages
+- Add tests for new features
+
+### Reporting Issues
+
+- Use the GitHub issue tracker
+- Provide detailed information about the bug
+- Include steps to reproduce the issue
+- Add relevant labels
+
+
+
+## 📄 License
+
+This project is licensed under the MIT License License - see the [LICENSE](LICENSE) file for details.
+
+### License Summary
+
+The MIT License license is a permissive license that allows for commercial use, modification, distribution, and private use.
+
+## 👥 Authors
+
+- **imrajeevnayan** - *Project Creator* - [@imrajeevnayan](https://github.com/imrajeevnayan)
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors who have helped shape this project
+- Inspired by the open-source community
+- Built with ❤️ and modern development practices
+
+## 📊 Project Stats
+
+- ⭐ Stars: 0
+- 🍴 Forks: 0
+- 🐛 Issues: 0
+- 📝 Language: TypeScript
 
 ---
 
-## ✍️ Author
+⭐️ If you found this project helpful, please give it a star!
 
-**Rajeev Nayan** – [GitHub Profile](https://github.com/imrajeevnayan)
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📞 Contact
-
-If you want to get in touch, reach out via [GitHub](https://github.com/imrajeevnayan) or email: imrajeevnayan@gmail.com
-
----
-
-⭐️ If you like this project, please give it a star!
-
+🌐 **Live Demo**: [https://imrajeevnayan.github.io/weather-forecast-application/](https://imrajeevnayan.github.io/weather-forecast-application/)
